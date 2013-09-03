@@ -1,0 +1,107 @@
+@import "bootstrap/bootstrap.less";
+@import "bootstrap/responsive.less";
+@import "modules/base.less";
+
+/* Travis Learns */
+body {
+  	font-family: @sans;
+    font-size: 16px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+a	{
+	color: @red;
+}
+
+a:hover	{
+	color: @redLighter;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-style: normal;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+		a	{
+			color: @grayDarker;
+		}
+}
+
+h1	{
+	  font-size: 24px;
+	  text-transform: uppercase;
+	  font-family: @sans;
+	  color: @red;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: @serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+h3 {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-family: @serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+h4	{
+	font-family: @serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.summarized-story h3{
+	font-size: 22px;
+	line-height:24px;
+}
+
+.copy {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+}
+
+.transition	{
+	-o-transition: .25s;
+	-ms-transition: .25s;
+	-moz-transition: .25s;
+	-webkit-transition: .25s;
+	transition: .25s;
+}
+
+@sans: proxima-nova;
+@serif: adobe-garamond-pro;
+
+@textShadow: 1px 2px 2px @grayDarker;
+
+
+@red: #a90533;
+@redDarker: #89052a;
+@redLighter: #de0744;
+@gray: #7f7f7f;
+@grayDarker: #333333;
+@blue: #14c0f5;
+
+
+@import "modules/article-types.less";
+@import "modules/article.less";
+@import "modules/utils.less";
+@import "bootstrap/accordion.less";
+@import "modules/polls.less";
+@import "modules/utils.less";
+@import "modules/responsive.less";
+@import "modules/boxes.less";
+@import "modules/ads.less";
+@import "modules/multimedia.less";
+@import "modules/flexslider.less";
+@import "modules/dropnav.less";
+@import "modules/page.less";

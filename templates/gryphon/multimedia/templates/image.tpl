@@ -1,0 +1,1 @@
+{# gryphon/main/multimedia/templates/image.tpl#}
